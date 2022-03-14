@@ -13,29 +13,29 @@
     ],
     "modules": [
         {
-          "name": "boost",
-          "buildsystem": "simple",
-          "build-commands": [
-            "./bootstrap.sh --prefix=/app",
-            "./b2 -j $FLATPAK_BUILDER_N_JOBS",
-            "./b2 install"
-          ],
-          "cleanup": [
-            "/lib/libboost_*.a"
-          ],
-          "sources": [
-            {
-              "type": "archive",
-              "url": "https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.bz2",
-              "sha256": "8681f175d4bdb26c52222665793eef08490d7758529330f98d3b29dd0735bccc",
-              "x-checker-data": {
-                "type": "anitya",
-                "project-id": 6845,
-                "stable-only": true,
-                "url-template": "https://boostorg.jfrog.io/artifactory/main/release/$version/source/boost_${major}_${minor}_$patch.tar.bz2"
-              }
-            }
-          ]
+            "name": "boost",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./bootstrap.sh --prefix=/app",
+                "./b2 -j $FLATPAK_BUILDER_N_JOBS",
+                "./b2 install"
+            ],
+            "cleanup": [
+                "/lib/libboost_*.a"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.bz2",
+                    "sha256": "8681f175d4bdb26c52222665793eef08490d7758529330f98d3b29dd0735bccc",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 6845,
+                        "stable-only": true,
+                        "url-template": "https://boostorg.jfrog.io/artifactory/main/release/$version/source/boost_${major}_${minor}_$patch.tar.bz2"
+                    }
+                }
+            ]
         },
         {
             "name": "graphviz",
@@ -43,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www2.graphviz.org/Packages/stable/portable_source/graphviz-2.44.0.tar.gz",
-                    "sha256": "9aabd13a8018b708ab3c822de2326c19d0a52ed59f50a6b0f9318c07e2a6d93b",
+                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/3.0.0/graphviz-3.0.0.tar.xz",
+                    "sha256": "ddda3cd0e9bc60c9fb56b4bf4a02eb60ecbfb4405c6758553f7d2668633b4262",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1249,
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdiagram/2.7.0/kdiagram-2.7.0.tar.xz",
-                    "sha256": "63a2eabfa1554ceb1d686d5f17ed6308139b6d9155aaf224e0309585b070fbdd",
+                    "url": "https://download.kde.org/stable/kdiagram/2.8.0/kdiagram-2.8.0.tar.xz",
+                    "sha256": "579dad3bd1ea44b5a20c0f133ebf47622e38960f9c7c8b3a316be30a369f431f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17734,
