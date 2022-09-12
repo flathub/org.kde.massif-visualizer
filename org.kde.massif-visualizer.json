@@ -43,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/6.0.0/graphviz-6.0.0.tar.xz",
-                    "sha256": "24035650e27ab9bac86d745e6609050c9c005206476929b95f5d4842dcdbdf71",
+                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/6.0.1/graphviz-6.0.1.tar.xz",
+                    "sha256": "8eae137c4a2bdac7aa99bb13b748c55b9da9e9fb59f927fd50b84b56bf07f4cc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1249,
