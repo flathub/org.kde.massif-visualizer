@@ -44,7 +44,7 @@
                 {
                     "type": "archive",
                     "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/8.0.4/graphviz-8.0.4.tar.xz",
-                    "sha256": "1b6772961aa81e2afd33c5ea58670d00c681bc6cf5683d649cff2d74a76556f4",
+                    "sha256": "676893733c54ab84af4ef9755ca6e07206da74f787013875dbc57177493cefd1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1249,
