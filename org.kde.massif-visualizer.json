@@ -11,6 +11,7 @@
         "--socket=wayland",
         "--socket=x11"
     ],
+    "rename-icon": "massif-visualizer",
     "modules": [
         {
             "name": "boost",
@@ -85,6 +86,9 @@
         {
             "name": "massif-visualizer",
             "buildsystem": "cmake-ninja",
+            "post-install": [
+                "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
+            ],
             "sources": [
                 {
                     "type": "archive",
