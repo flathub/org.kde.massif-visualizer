@@ -1,16 +1,17 @@
 {
     "id": "org.kde.massif-visualizer",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "command": "massif-visualizer",
     "finish-args": [
         "--device=dri",
         "--share=ipc",
         "--socket=cups",
-        "--socket=wayland",
-        "--socket=x11"
+        "--socket=fallback-x11",
+        "--socket=wayland"
     ],
+    "rename-icon": "massif-visualizer",
     "modules": [
         {
             "name": "boost",
@@ -85,6 +86,9 @@
         {
             "name": "massif-visualizer",
             "buildsystem": "cmake-ninja",
+            "post-install": [
+                "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
+            ],
             "sources": [
                 {
                     "type": "archive",
