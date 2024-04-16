@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.84.0/source/boost_1_84_0.tar.bz2",
-                    "sha256": "cc4b893acf645c9d4b698e9a0f08ca8846aa5d6c68275c14c3e7949c24109454",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.85.0/source/boost_1_85_0.tar.bz2",
+                    "sha256": "7009fe1faa1697476bdc7027703a2badb84e849b7b0baad5086b087b971f8617",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -43,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/9.0.0/graphviz-9.0.0.tar.xz",
-                    "sha256": "6c9afda06a732af7658c2619ee713d2545818c3ff19b7b8fd48effcd06d57bf6",
+                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/10.0.1/graphviz-10.0.1.tar.xz",
+                    "sha256": "7bd8064a94bc178862aa0fbb0ed2236f49c188b2fd656487247c58db3019fe21",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1249,
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdiagram/2.8.0/kdiagram-2.8.0.tar.xz",
-                    "sha256": "579dad3bd1ea44b5a20c0f133ebf47622e38960f9c7c8b3a316be30a369f431f",
+                    "url": "https://download.kde.org/stable/kdiagram/3.0.1/kdiagram-3.0.1.tar.xz",
+                    "sha256": "4659b0c2cd9db18143f5abd9c806091c3aab6abc1a956bbf82815ab3d3189c6d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17734,
