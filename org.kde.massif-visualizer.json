@@ -104,6 +104,10 @@
                 {
                     "type": "patch",
                     "path": "0001-appdata.xml-Minor-fixes-for-submission-to-Flathub.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Appdata-Add-developer-name.patch"
                 }
             ]
         }
