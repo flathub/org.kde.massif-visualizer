@@ -1,0 +1,24 @@
+From c8eef355978a633883afdbfa7120d58152436b06 Mon Sep 17 00:00:00 2001
+From: Justin Zobel <justin.zobel@gmail.com>
+Date: Tue, 27 Feb 2024 03:53:21 +0000
+Subject: [PATCH 01/51] Appdata: Add developer name
+
+---
+ app/org.kde.massif-visualizer.appdata.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/app/org.kde.massif-visualizer.appdata.xml b/app/org.kde.massif-visualizer.appdata.xml
+index c5e5027..859dc29 100644
+--- a/app/org.kde.massif-visualizer.appdata.xml
++++ b/app/org.kde.massif-visualizer.appdata.xml
+@@ -3,6 +3,7 @@
+   <id>org.kde.massif-visualizer.desktop</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-2.0+</project_license>
++  <developer_name translate="no">KDE</developer_name>
+   <name>Massif-Visualizer</name>
+   <name xml:lang="ca">Massif-Visualizer</name>
+   <name xml:lang="ca-valencia">Massif-Visualizer</name>
+-- 
+2.44.0
+
