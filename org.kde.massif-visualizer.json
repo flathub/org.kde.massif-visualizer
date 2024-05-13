@@ -103,14 +103,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/massif-visualizer/$version/src/massif-visualizer-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-appdata.xml-Minor-fixes-for-submission-to-Flathub.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Appdata-Add-developer-name.patch"
                 }
             ]
         }
