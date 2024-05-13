@@ -61,8 +61,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kgraphviewer/2.4.3/kgraphviewer-2.4.3a.tar.xz",
-                    "sha256": "54e0c218453912ea82ad9a96edfb2d4dfd8cb15f6a567ef843b4ef97d07bd7c0"
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kgraphviewer-24.08.0.tar.xz",
+                    "sha256": "f2efe1591be2794df6eb299ed6ab32629bf91208c097a0e2a5fe89c8ce5c8cd1",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kgraphviewer-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -92,22 +98,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/massif-visualizer/0.7.0/src/massif-visualizer-0.7.0.tar.xz",
-                    "sha256": "f8a4cc23c80a259a9edac989e957c48ed308cf9da9caeef19eec3ffb52361f6d",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/massif-visualizer-24.08.0.tar.xz",
+                    "sha256": "dd605c473f6d2c77cd2a6ebaab5645a7784ef7e414a65bff357836e8a26df590",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 242862,
+                        "project-id": 8763,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/massif-visualizer/$version/src/massif-visualizer-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/massif-visualizer-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-appdata.xml-Minor-fixes-for-submission-to-Flathub.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Appdata-Add-developer-name.patch"
                 }
             ]
         }
