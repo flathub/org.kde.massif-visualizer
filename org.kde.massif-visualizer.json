@@ -95,8 +95,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/massif-visualizer/0.7.0/src/massif-visualizer-0.7.0.tar.xz",
-                    "sha256": "f8a4cc23c80a259a9edac989e957c48ed308cf9da9caeef19eec3ffb52361f6d",
+                    "url": "https://download.kde.org/stable/massif-visualizer/0.8.0/src/massif-visualizer-0.8.0.tar.xz",
+                    "sha256": "5fad3f0e0d9fbb6bc8cfb744cb4e2c99f231d57ee0dd66dd594d36c2cc588a80",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242862,
