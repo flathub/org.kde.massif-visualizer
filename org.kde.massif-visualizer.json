@@ -44,8 +44,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.0.0/graphviz-12.0.0.tar.xz",
-                    "sha256": "720d5392ccab391d50ac2131048705285fbd3fe8948cdb27c7e7b56160d11a9f",
+                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.1.0/graphviz-12.1.0.tar.xz",
+                    "sha256": "fa174c57b11f3ca48f096cf3d4dafa695bcc30a6ffea61804efe3f91ed9bc7ba",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1249,
@@ -95,8 +95,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/massif-visualizer/0.7.0/src/massif-visualizer-0.7.0.tar.xz",
-                    "sha256": "f8a4cc23c80a259a9edac989e957c48ed308cf9da9caeef19eec3ffb52361f6d",
+                    "url": "https://download.kde.org/stable/massif-visualizer/0.8.0/src/massif-visualizer-0.8.0.tar.xz",
+                    "sha256": "5fad3f0e0d9fbb6bc8cfb744cb4e2c99f231d57ee0dd66dd594d36c2cc588a80",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242862,
