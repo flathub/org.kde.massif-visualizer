@@ -58,6 +58,10 @@
         {
             "name": "kgraphviewer",
             "buildsystem": "cmake",
+            "post-install": [
+                "rm /app/share/applications/org.kde.kgraphviewer.desktop",
+                "rm /app/share/metainfo/org.kde.kgraphviewer.appdata.xml"
+            ],
             "sources": [
                 {
                     "type": "archive",
