@@ -1,7 +1,7 @@
 {
     "id": "org.kde.massif-visualizer",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.7",
     "sdk": "org.kde.Sdk",
     "command": "massif-visualizer",
     "finish-args": [
@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.85.0/source/boost_1_85_0.tar.bz2",
-                    "sha256": "7009fe1faa1697476bdc7027703a2badb84e849b7b0baad5086b087b971f8617",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.86.0/source/boost_1_86_0.tar.bz2",
+                    "sha256": "1bed88e40401b2cb7a1f76d4bab499e352fa4d0c5f31c0dbae64e24d34d7513b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -44,8 +44,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.0.0/graphviz-12.0.0.tar.xz",
-                    "sha256": "720d5392ccab391d50ac2131048705285fbd3fe8948cdb27c7e7b56160d11a9f",
+                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.1.0/graphviz-12.1.0.tar.xz",
+                    "sha256": "fa174c57b11f3ca48f096cf3d4dafa695bcc30a6ffea61804efe3f91ed9bc7ba",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1249,
@@ -58,11 +58,21 @@
         {
             "name": "kgraphviewer",
             "buildsystem": "cmake",
+            "post-install": [
+                "rm /app/share/applications/org.kde.kgraphviewer.desktop",
+                "rm /app/share/metainfo/org.kde.kgraphviewer.appdata.xml"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kgraphviewer/2.4.3/kgraphviewer-2.4.3a.tar.xz",
-                    "sha256": "54e0c218453912ea82ad9a96edfb2d4dfd8cb15f6a567ef843b4ef97d07bd7c0"
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kgraphviewer-24.08.0.tar.xz",
+                    "sha256": "f2efe1591be2794df6eb299ed6ab32629bf91208c097a0e2a5fe89c8ce5c8cd1",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kgraphviewer-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -72,16 +82,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdiagram/2.8.0/kdiagram-2.8.0.tar.xz",
-                    "sha256": "579dad3bd1ea44b5a20c0f133ebf47622e38960f9c7c8b3a316be30a369f431f",
+                    "url": "https://download.kde.org/stable/kdiagram/3.0.1/kdiagram-3.0.1.tar.xz",
+                    "sha256": "4659b0c2cd9db18143f5abd9c806091c3aab6abc1a956bbf82815ab3d3189c6d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17734,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kdiagram/$version/kdiagram-$version.tar.xz",
-                        "versions": {
-                            "<": "3"
-                        }
+                        "url-template": "https://download.kde.org/stable/kdiagram/$version/kdiagram-$version.tar.xz"
                     }
                 }
             ]
@@ -95,22 +102,26 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/massif-visualizer/0.7.0/src/massif-visualizer-0.7.0.tar.xz",
-                    "sha256": "f8a4cc23c80a259a9edac989e957c48ed308cf9da9caeef19eec3ffb52361f6d",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/massif-visualizer-24.08.0.tar.xz",
+                    "sha256": "dd605c473f6d2c77cd2a6ebaab5645a7784ef7e414a65bff357836e8a26df590",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 242862,
+                        "project-id": 8763,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/massif-visualizer/$version/src/massif-visualizer-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/massif-visualizer-$version.tar.xz"
                     }
                 },
                 {
                     "type": "patch",
-                    "path": "0001-appdata.xml-Minor-fixes-for-submission-to-Flathub.patch"
+                    "path": "0001-appdata-Add-category-Development.patch"
                 },
                 {
                     "type": "patch",
-                    "path": "0001-Appdata-Add-developer-name.patch"
+                    "path": "0002-appdata-Fix-URL.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0003-appdata-Keep-old-name.patch"
                 }
             ]
         }

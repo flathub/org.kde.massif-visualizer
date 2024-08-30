@@ -1,0 +1,24 @@
+From 3d633930541de32f05b6f16ce1ae8889bd2b0b3c Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Timoth=C3=A9e=20Ravier?= <tim@siosm.fr>
+Date: Fri, 30 Aug 2024 15:59:47 +0200
+Subject: [PATCH 3/3] appdata: Keep old name
+
+---
+ app/org.kde.massif-visualizer.appdata.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/app/org.kde.massif-visualizer.appdata.xml b/app/org.kde.massif-visualizer.appdata.xml
+index 4bdd584..eb7b9da 100644
+--- a/app/org.kde.massif-visualizer.appdata.xml
++++ b/app/org.kde.massif-visualizer.appdata.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <component type="desktop-application">
+-  <id>org.kde.massif_visualizer</id>
++  <id>org.kde.massif-visualizer</id>
+   <replaces>
+     <id>org.kde.massif-visualizer.desktop</id>
+   </replaces>
+-- 
+2.46.0
+
