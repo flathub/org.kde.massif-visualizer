@@ -110,6 +110,18 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/massif-visualizer-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-appdata-Add-category-Development.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0002-appdata-Fix-URL.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0003-appdata-Keep-old-name.patch"
                 }
             ]
         }
