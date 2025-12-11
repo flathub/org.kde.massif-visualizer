@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/kgraphviewer-25.08.3.tar.xz",
-                    "sha256": "8f24fa794a5e3f302283a087bf6cbcd50a98c4023ae3aa25e2f7b4971ea86605",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/kgraphviewer-25.12.0.tar.xz",
+                    "sha256": "c26ab2f1c63f30ef909bf62dd3f87882947e243256b53c01dc7d4142c70538f6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -102,8 +102,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/massif-visualizer-25.08.3.tar.xz",
-                    "sha256": "071dd18fe2cbb09224983a660725d596f09b6ae67033eec04e295941b4006775",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/massif-visualizer-25.12.0.tar.xz",
+                    "sha256": "f0674df1b77e4b0c8f78c06d2eec7c3ab7ef4ac44fd733d5c101561a816f6068",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
