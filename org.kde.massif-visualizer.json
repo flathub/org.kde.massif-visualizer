@@ -105,6 +105,7 @@
                     "url": "https://download.kde.org/stable/release-service/25.12.1/src/massif-visualizer-25.12.1.tar.xz",
                     "sha256": "46a5b627653856c6549a0d58dc91ee72ac08d51c5286f8892a64e4b9b0d06e10",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
