@@ -4,6 +4,7 @@
     "runtime-version": "6.10",
     "sdk": "org.kde.Sdk",
     "command": "massif-visualizer",
+    "rename-icon": "massif-visualizer",
     "finish-args": [
         "--device=dri",
         "--share=ipc",
@@ -11,7 +12,16 @@
         "--socket=fallback-x11",
         "--socket=wayland"
     ],
-    "rename-icon": "massif-visualizer",
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/mkspecs",
+        "/share/doc",
+        "/share/man",
+        "/share/qlogging-categories6",
+        "*.la",
+        "*.a"
+    ],
     "modules": [
         {
             "name": "boost",
@@ -20,9 +30,6 @@
                 "./bootstrap.sh --prefix=/app",
                 "./b2 -j $FLATPAK_BUILDER_N_JOBS",
                 "./b2 install"
-            ],
-            "cleanup": [
-                "/lib/libboost_*.a"
             ],
             "sources": [
                 {
