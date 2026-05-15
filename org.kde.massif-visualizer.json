@@ -104,7 +104,7 @@
             "name": "massif-visualizer",
             "buildsystem": "cmake-ninja",
             "post-install": [
-                "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
+                "desktop-file-edit --set-icon=${FLATPAK_ID} ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
             ],
             "sources": [
                 {
