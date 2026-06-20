@@ -5,6 +5,7 @@
     "sdk": "org.kde.Sdk",
     "command": "massif-visualizer",
     "rename-icon": "massif-visualizer",
+    "rename-appdata-file": "org.kde.massif_visualizer.appdata.xml",
     "finish-args": [
         "--device=dri",
         "--share=ipc",
@@ -103,9 +104,6 @@
         {
             "name": "massif-visualizer",
             "buildsystem": "cmake-ninja",
-            "post-install": [
-                "desktop-file-edit --set-icon=${FLATPAK_ID} ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
-            ],
             "sources": [
                 {
                     "type": "archive",
@@ -118,10 +116,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/massif-visualizer-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0003-appdata-Keep-old-name.patch"
                 }
             ]
         }
