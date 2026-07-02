@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/14.1.3/graphviz-14.1.3.tar.xz",
-                    "sha256": "fe76529477c22c0cf833ec5a35b430cf710f4705afc465d86292bf13560be584",
+                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/15.1.0/graphviz-15.1.0.tar.xz",
+                    "sha256": "4c44f9f6654d39638db7cdb6a088735117469015299298d82087b24dd4042b16",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1249,
@@ -72,8 +72,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kgraphviewer-25.12.3.tar.xz",
-                    "sha256": "634d92f9bedb09e5e491e7c8ceb1c4a6607ccb8ef87f8c8b1c8a9f52e3f8c0c6",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kgraphviewer-26.04.3.tar.xz",
+                    "sha256": "d10266f6a98ee0234e5edf2f3ddb272a508cb72679553d0030ffebcb3e4099b9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/massif-visualizer-25.12.3.tar.xz",
-                    "sha256": "051801ee3d9704bb254332e7a317c228a510a5b83ff0304937011148b0212311",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/massif-visualizer-26.04.3.tar.xz",
+                    "sha256": "63496ba8810f938d77c56bc97c1ace23bd422ac64405d68f094b00154d3345e3",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
