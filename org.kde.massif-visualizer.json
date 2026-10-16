@@ -35,8 +35,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2",
-                    "sha256": "49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305",
+                    "url": "https://archives.boost.io/release/1.92.0/source/boost_1_92_0.tar.bz2",
+                    "sha256": "5c1d40cb8e19adbf740a4ec2da35b3e58f3f5804b1dce44deb53df72193cbc6c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/15.1.0/graphviz-15.1.0.tar.xz",
-                    "sha256": "4c44f9f6654d39638db7cdb6a088735117469015299298d82087b24dd4042b16",
+                    "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/16.1.0/graphviz-16.1.0.tar.xz",
+                    "sha256": "0f661718f3e5268dc3bad0fb53ab646605d26db70f4080799aff1dc2f61783c3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1249,
@@ -107,8 +107,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/massif-visualizer-26.04.3.tar.xz",
-                    "sha256": "63496ba8810f938d77c56bc97c1ace23bd422ac64405d68f094b00154d3345e3",
+                    "url": "https://download.kde.org/stable/release-service/26.08.2/src/massif-visualizer-26.08.2.tar.xz",
+                    "sha256": "c05c0fab639d72443e6f89f9ddd52b55c32ba0e830910d162d1c95c0b6f20b86",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
